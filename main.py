@@ -29,10 +29,10 @@ class Morse():
             try:
                 for a in morse_dict[i]:
                     if a == ".":
-                        playsound("short_bip.mp3")
+                        playsound("sounds/short_bip.mp3")
                         
                     elif a == "-":
-                        playsound("long_bip.mp3")
+                        playsound("sounds/long_bip.mp3")
                     
                     self.result+=a
                     time.sleep(0.1)
